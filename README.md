@@ -19,7 +19,12 @@ CAUTION: Makefile is not completed. So do not use make command to build it.<br /
   JJ_CL_PLATFORMS platformsInformations;//Declare this variable which contains platforms' information
   cl_int errNum;//And error checking variable
   
-  errNum = jjOpenCLPlatformInitialize(&platformsInformations, true);//And call jjOpenCLPlatformInitialize to get all platforms. Second boolean argument will set weather or not to display information about all platforms at terminal(or console).
+  errNum = jjOpenCLPlatformInitialize(&platformsInformations, true);
+  /*And call jjOpenCLPlatformInitialize to get all platforms.
+   *Second boolean argument will determine
+   *weather or not to display information about
+   *all platforms at terminal(or console).
+   */
 ```
   
   You can access all platform number like this:
@@ -81,7 +86,11 @@ CAUTION: Makefile is not completed. So do not use make command to build it.<br /
 ```c
   JJ_CL_PLATFORMS platformsInformations;//플랫폼들의 정보를 포함하는 변수와
   cl_int errNum;//에러 처리용 변수를 선언하시고
-  errNum = jjOpenCLPlatformInitialize(&platformsInformations, true);//jjOpenCLPlatformInitialize를 호출하세요. 두번째 boolean 형 인자는 함수호출시 모든 플랫폼에 대한 정보들을 터미널(혹은 콘솔)에 표시할 지 결정합니다.
+  errNum = jjOpenCLPlatformInitialize(&platformsInformations, true);
+  /*jjOpenCLPlatformInitialize를 호출하세요.
+   *두번째 boolean 형 인자는 함수호출시
+   *모든 플랫폼에 대한 정보들을 터미널(혹은 콘솔)에 표시할 지 결정합니다.
+   */
 ```
   모든 플랫폼의 수에는 다음과 같이 접근하실 수 있습니다:
 ```c
