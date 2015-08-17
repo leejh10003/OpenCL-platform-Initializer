@@ -1,5 +1,6 @@
 # OpenCL-platform-Initializer
 OpenCL platform initializer made by joonji.
+
 CAUTION: Makefile is not completed. So do not use make command to build it.
 주의: Makefile은 완성되지 않았습니다. 따라서 이를 빌드하기 위해서 make 명령어를 사용하지 마십시오.
 
