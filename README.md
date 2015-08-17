@@ -79,7 +79,7 @@ CAUTION: Makefile is not completed. So do not use make command to build it.<br /
 ###소개:
   OpenCL 은 강력한 이종 컴퓨팅 환경입니다. 하지만 그 기능 전부를 활용하는 것은 매우 어렵죠.<br />
   그리고 대부분의 프로그래머에게는 플랫폼 정보를 받아오는 것도 귀찮은 작업입니다.<br />
-  이 라이브러리를 사용하시면 단 하나의 JJ_CL_PLATFORMS 변수를 선언하고, jjOpenCLPlatformInitialize 함수를 호출하시는 만으로 모든 플랫폼의 수와 각각의 정보를 받아올 수 있습니다.
+  이 라이브러리를 사용하시면 단 하나의 JJ_CL_PLATFORMS 변수를 선언하고, jjOpenCLPlatformInitialize 함수를 호출하시는 것 만으로 모든 플랫폼의 수와 각각의 정보를 받아올 수 있습니다.
   
 ###사용법:
   당신이 사용할 수 있는 모든 플랫폼을 얻어오고 싶은 곳에서
