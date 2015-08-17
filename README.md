@@ -1,14 +1,12 @@
 # OpenCL-platform-Initializer
 OpenCL platform initializer made by joonji.
-
 CAUTION: Makefile is not completed. So do not use make command to build it.
-
 주의: Makefile은 완성되지 않았습니다. 따라서 이를 빌드하기 위해서 make 명령어를 사용하지 마십시오.
 
-ENGLISH:
+##ENGLISH:
 
 
-  Introduction:
+###Introduction:
   
   OpenCL is a powerful heterogeneous computing environment, but it is so hard to control it's function perfectly.
   And to most of programmer, even getting platform is an annoying job.
@@ -20,20 +18,18 @@ ENGLISH:
   
   
   
-  Usage:
+###Usage:
   
   Usage is this. in any function where you want to get all platform can use,
   
   
   JJ_CL_PLATFORMS platformsInformations;//Declare this variable which contains platforms' information
-  
   cl_int errNum;//And error checking variable
   
   errNum = jjOpenCLPlatformInitialize(&platformsInformations, true);//And call jjOpenCLPlatformInitialize to get all platforms. Second boolean argument will set weather or not to display information about all platforms at terminal(or console).
   
   
   You can access all platform number like this:
-  
   platformsInformations.platformsNum//Type cl_uint
   
   You can access each platform's property like this:
@@ -47,7 +43,7 @@ ENGLISH:
   
   
   
-  More information:
+###More information:
   
   JJ_CL_PLATFORMS is structure which has variables:
   
@@ -104,12 +100,12 @@ https://www.khronos.org/registry/cl/sdk/1.0/docs/man/xhtml/clGetPlatformInfo.htm
   
 
 
-한국어:
+##한국어:
 
 
 
 
-  소개:
+###소개:
   
   OpenCL 은 강력한 이종 컴퓨팅 환경입니다. 하지만 그 기능 전부를 활용하는 것은 매우 어렵죠.
   
@@ -123,7 +119,7 @@ https://www.khronos.org/registry/cl/sdk/1.0/docs/man/xhtml/clGetPlatformInfo.htm
   
   
   
-  사용법:
+###사용법:
   
   당신이 사용할 수 있는 모든 플랫폼을 얻어오고 싶은 곳에서
   
@@ -150,7 +146,7 @@ https://www.khronos.org/registry/cl/sdk/1.0/docs/man/xhtml/clGetPlatformInfo.htm
   
   
   
-  더 알아보기:
+###더 알아보기:
   
   JJ_CL_PLATFORMS 은 다음과 같은 변수들을 지닌 구조체입니다:
   
